@@ -14,7 +14,7 @@ You can find the code explanation in details on [This Link](https://github.com/s
 
 Flow of the app is pretty simple:
 1. Take a photo.
-2. Classify if it's hot or not.
+2. Classify if it's Defective or Healthy.
 3. Show the results.
 
 ### Code structure
