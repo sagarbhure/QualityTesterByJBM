@@ -29,7 +29,7 @@ The app consists of two main components:
 - `inputName` - the name of the classifier's input (the photo pixels goes in there),
 - `outputName` - the name of the classifier's output (the results can be found there),
 - `imageSize` - the size of the photo,
-- `labels` - the list of the labels (in our case "hot" and "not"),
+- `labels` - the list of the labels (in our case "Defective" and "Healthy"),
 - `imageBitmapPixels` - the array with bitmap pixels (int values before normalization),
 - `imageNormalizedPixels` - the array with normalized pixels,
 - `results` - the list with the results,
