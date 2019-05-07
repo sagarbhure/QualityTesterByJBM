@@ -1,6 +1,6 @@
 # TensorFlow - Defective or Healthy?
 This is an example of how to use [TensorFlow](https://www.tensorflow.org/) library on Android to classify images. 
-You can find the code explanation in details on [my blog post](https://proandroiddev.com/using-tensorflow-in-android-step-by-step-code-explanation-fee36c281f32). If you're interested how the model was created, you can read about it on [my other blog post](https://medium.com/@mateuszbudzar/re-training-the-model-with-images-using-tensorflow-7758e9eb8db5).
+You can find the code explanation in details on [my blog post]().
 
 <div align="center">
 <a href="https://imgflip.com/i/30canb"><img width="270" height="480" src="https://i.imgflip.com/30canb.jpg" title="made at imgflip.com"/></a>
