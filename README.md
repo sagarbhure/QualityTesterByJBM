@@ -1,16 +1,14 @@
-# TensorFlow - Hot or Not?
+# TensorFlow - Defective or Healthy?
 This is an example of how to use [TensorFlow](https://www.tensorflow.org/) library on Android to classify images. 
 You can find the code explanation in details on [my blog post](https://proandroiddev.com/using-tensorflow-in-android-step-by-step-code-explanation-fee36c281f32). If you're interested how the model was created, you can read about it on [my other blog post](https://medium.com/@mateuszbudzar/re-training-the-model-with-images-using-tensorflow-7758e9eb8db5).
 
 <div align="center">
-<a href="https://imgflip.com/i/257ush"><img width="270" height="480" src="https://i.imgflip.com/257ush.jpg" title="made at imgflip.com"/></a>
-<a href="https://imgflip.com/i/257uv9"><img width="270" height="480" src="https://i.imgflip.com/257uv9.jpg" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/i/30canb"><img width="270" height="480" src="https://i.imgflip.com/257ush.jpg" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/i/30cao3"><img width="270" height="480" src="https://i.imgflip.com/257uv9.jpg" title="made at imgflip.com"/></a>
 </div>
 
 <br/>
 
-## Presentation
-The example was created for the presentation purpose which you can find [here](https://github.com/makorowy/tensorflow-hotornot/blob/master/TensorFlow%20-%20HON%20(ENG).pdf).
 
 ## Usage
 
@@ -39,7 +37,6 @@ The app consists of two main components:
 
 ### Classification process
 
-For classifying photos the app is using retrained [MobileNet](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md) model. The model can be found inside the `assets` folder together with the labels file.
 
 Before classification the photo needs to be prepared to fit the input of the classifier which is 224x224 pixels. Because of that the photo is resized and cropped which is happening inside the `ImageUtils`.
 
@@ -57,6 +54,10 @@ For the classification process the instance of the `TensorFlowInferenceInterface
 <br/> `tensorFlowInference.fetch(outputName, results)` <br/>
 
 The results are then passed to the `MainActivity` and shown on the screen.
+Refer to the Video in ./JBMClasification2/QualityTesterByJBM.mp4 for Demo.
+
+This is an example of how to use TensorFlow library to classify images as Healthy or Defective, following is the link to github project to deploy the model on android app.
+
 
 ## License
 [Apache 2.0](https://github.com/makorowy/tensorflow-hotornot/blob/master/LICENCE)
