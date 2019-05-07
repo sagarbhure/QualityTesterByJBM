@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quality Testor by JBM</string>
+
+    <string name="hot">Healthy Part</string>
+    <string name="not">Defective Part</string>
+
+    <string name="take_photo">Take photo</string>
+</resources>
